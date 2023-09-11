@@ -8,16 +8,16 @@
 </head>
 <body>
     <div class="container1">
-        <form action="" onsubmit="sendEmail(); reset(); return false;">
+        <form action="https://formspree.io/f/xknlblra" onsubmit="sendEmail(); reset(); return false;">
             <h3>GET IN TOUCH</h3>
-            <input type="text" id="name" placeholder="Your Name" required>
-            <input type="email" id="email" placeholder="Email id" required>
-            <input type="text" id="phone" placeholder="Phone no." required>
-            <textarea name="message" id="message"  rows="4" placeholder="How can we help you?"></textarea>
+            <input type="text" id="name" placeholder="Your Name" name="Name" required>
+            <input type="email" id="email" placeholder="Email id" name="Email" required>
+            <input type="text" id="phone" placeholder="Phone no." name="Phone No" required>
+            <textarea name="message" id="message"  rows="4" placeholder="How can we help you?" nmae="Message"></textarea>
             <button type="submit">Submit</button>
         </form>
     </div>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script ></script>
     <script>
         function sendEmail() {
             Email.send({
