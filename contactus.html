@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container1">
-        <form action="https://formspree.io/f/xknlblra" onsubmit="sendEmail(); reset(); return false;   method="POST"; ">
+        <form action="https://formspree.io/f/xknlblra" method="POST">
             <h3>GET IN TOUCH</h3>
             <input type="text" id="name" placeholder="Your Name" name="Name" required>
             <input type="email" id="email" placeholder="Email id" name="Email" required>
@@ -32,6 +32,8 @@
             }).then(
                 message => alert (message)
             );
+
+            </script>
         }
     </script>
 </body>
